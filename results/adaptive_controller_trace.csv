@@ -1,0 +1,44 @@
+scenario,scheduler,time_s,voice_weight,voice_queue_packets,voice_head_wait_ms
+Default traffic,Adaptive WRR,0.0,3,0,0.0
+Congested voice,Adaptive WRR,0.0,3,0,0.0
+Congested voice,Adaptive WRR,0.00736,4,12,4.56
+Congested voice,Adaptive WRR,0.00872,5,14,5.52
+Congested voice,Adaptive WRR,0.00888,6,14,5.28
+Congested voice,Adaptive WRR,0.009040000000000001,7,13,5.04
+Congested voice,Adaptive WRR,0.009200000000000002,8,13,4.800000000000001
+Congested voice,Adaptive WRR,0.010160000000000002,9,15,5.760000000000002
+Congested voice,Adaptive WRR,0.010320000000000003,10,14,5.520000000000001
+Congested voice,Adaptive WRR,0.010480000000000003,11,14,5.280000000000002
+Congested voice,Adaptive WRR,0.010640000000000004,12,13,5.040000000000002
+Congested voice,Adaptive WRR,10.041199999998346,11,0,0.0
+Congested voice,Adaptive WRR,10.042399999998347,10,0,0.0
+Congested voice,Adaptive WRR,10.043599999998348,9,0,0.0
+Congested voice,Adaptive WRR,10.044559999998347,8,0,0.0
+Congested voice,Adaptive WRR,10.045759999998348,7,0,0.0
+Congested voice,Adaptive WRR,10.046719999998347,6,0,0.0
+Congested voice,Adaptive WRR,10.047919999998348,5,0,0.0
+Congested voice,Adaptive WRR,10.048879999998347,4,0,0.0
+Congested voice,Adaptive WRR,10.049839999998346,3,0,0.0
+Changing traffic,Adaptive WRR,0.0,3,0,0.0
+Changing traffic,Adaptive WRR,5.007359999999516,4,12,4.560000000001452
+Changing traffic,Adaptive WRR,5.008719999999516,5,14,5.520000000001524
+Changing traffic,Adaptive WRR,5.008879999999516,6,14,5.280000000001728
+Changing traffic,Adaptive WRR,5.0090399999995165,7,13,5.040000000001932
+Changing traffic,Adaptive WRR,5.009199999999517,8,13,4.800000000002136
+Changing traffic,Adaptive WRR,5.010159999999517,9,15,5.760000000002208
+Changing traffic,Adaptive WRR,5.010319999999517,10,14,5.520000000002412
+Changing traffic,Adaptive WRR,5.010479999999517,11,14,5.280000000002616
+Changing traffic,Adaptive WRR,5.010639999999517,12,13,5.04000000000282
+Changing traffic,Adaptive WRR,10.040399999996769,11,0,0.0
+Changing traffic,Adaptive WRR,10.041359999996768,10,0,0.0
+Changing traffic,Adaptive WRR,10.042319999996767,9,0,0.0
+Changing traffic,Adaptive WRR,10.043279999996766,8,0,0.0
+Changing traffic,Adaptive WRR,10.044479999996767,7,0,0.0
+Changing traffic,Adaptive WRR,10.045439999996766,6,0,0.0
+Changing traffic,Adaptive WRR,10.046399999996765,5,0,0.0
+Changing traffic,Adaptive WRR,10.047599999996766,4,0,0.0
+Changing traffic,Adaptive WRR,10.048559999996765,3,0,0.0
+Offered load 5 Mbps,Adaptive WRR,0.0,3,0,0.0
+Offered load 10 Mbps,Adaptive WRR,0.0,3,0,0.0
+Offered load 15 Mbps,Adaptive WRR,0.0,3,0,0.0
+Offered load 20 Mbps,Adaptive WRR,0.0,3,0,0.0

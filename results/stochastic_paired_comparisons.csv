@@ -1,0 +1,865 @@
+scenario,shaper,flow,metric,comparison,seed_pairs,mean_difference,ci95_low,ci95_high,interpretation
+Default traffic,None,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-0.0018479999999999983,-0.0020790876341841803,-0.001616912365815816,negative favors Adaptive WRR
+Default traffic,None,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,average_delay_ms,FIFO minus Adaptive WRR,20,207.6453465375725,207.04871053054893,208.24198254459606,negative favors Adaptive WRR
+Default traffic,None,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,1.7434518583173673,1.6733696061642875,1.813534110470447,negative favors Adaptive WRR
+Default traffic,None,voice,average_queue_packets,FIFO minus Adaptive WRR,20,100.32303546805716,99.85395954879158,100.79211138732273,negative favors Adaptive WRR
+Default traffic,None,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.013781948759385543,-0.014073221946875578,-0.013490675571895507,positive favors Adaptive WRR
+Default traffic,None,video,throughput_mbps,FIFO minus Adaptive WRR,20,-0.562416,-0.5861154980581257,-0.5387165019418744,negative favors Adaptive WRR
+Default traffic,None,video,packet_loss_percent,FIFO minus Adaptive WRR,20,9.879562036442234,9.445272521260149,10.31385155162432,negative favors Adaptive WRR
+Default traffic,None,video,average_delay_ms,FIFO minus Adaptive WRR,20,203.79480846224163,203.42013130553286,204.1694856189504,negative favors Adaptive WRR
+Default traffic,None,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.1743777180960613,-0.18295680256744243,-0.1657986336246802,negative favors Adaptive WRR
+Default traffic,None,video,average_queue_packets,FIFO minus Adaptive WRR,20,100.32303546805716,99.85395954879158,100.79211138732273,negative favors Adaptive WRR
+Default traffic,None,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.013781948759385543,-0.014073221946875578,-0.013490675571895507,positive favors Adaptive WRR
+Default traffic,None,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.56436,0.5406270411692431,0.5880929588307569,negative favors Adaptive WRR
+Default traffic,None,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-4.699296867101933,-4.893418258969849,-4.505175475234017,negative favors Adaptive WRR
+Default traffic,None,file,average_delay_ms,FIFO minus Adaptive WRR,20,-22.008107348409503,-23.036715374566043,-20.979499322252963,negative favors Adaptive WRR
+Default traffic,None,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.43035252417691644,-0.4383718276347376,-0.4223332207190953,negative favors Adaptive WRR
+Default traffic,None,file,average_queue_packets,FIFO minus Adaptive WRR,20,100.32303546805716,99.85395954879158,100.79211138732273,negative favors Adaptive WRR
+Default traffic,None,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.013781948759385543,-0.014073221946875578,-0.013490675571895507,positive favors Adaptive WRR
+Default traffic,None,voice,throughput_mbps,Priority minus Adaptive WRR,20,7.999999999999674e-06,-8.743999999999642e-06,2.474399999999899e-05,negative favors Adaptive WRR
+Default traffic,None,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.6541805530075011,-0.6673126117300338,-0.6410484942849685,negative favors Adaptive WRR
+Default traffic,None,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.36926083879261823,-0.38459744276174346,-0.353924234823493,negative favors Adaptive WRR
+Default traffic,None,voice,average_queue_packets,Priority minus Adaptive WRR,20,-1.6568920442152475,-1.7317034998891836,-1.5820805885413114,negative favors Adaptive WRR
+Default traffic,None,voice,jain_fairness_index,Priority minus Adaptive WRR,20,2.737932957056488e-05,1.32434372311123e-05,4.151522191001746e-05,positive favors Adaptive WRR
+Default traffic,None,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0027839999999999866,0.0014974330532210628,0.00407056694677891,negative favors Adaptive WRR
+Default traffic,None,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,video,average_delay_ms,Priority minus Adaptive WRR,20,-3.1866129404840957,-3.3245509526180386,-3.048674928350153,negative favors Adaptive WRR
+Default traffic,None,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.6077787113738465,-0.6145810324708826,-0.6009763902768105,negative favors Adaptive WRR
+Default traffic,None,video,average_queue_packets,Priority minus Adaptive WRR,20,-1.6568920442152475,-1.7317034998891836,-1.5820805885413114,negative favors Adaptive WRR
+Default traffic,None,video,jain_fairness_index,Priority minus Adaptive WRR,20,2.737932957056488e-05,1.32434372311123e-05,4.151522191001746e-05,positive favors Adaptive WRR
+Default traffic,None,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.0028199999999999116,-0.004111961920988363,-0.0015280380790114608,negative favors Adaptive WRR
+Default traffic,None,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.02298865977504292,0.012264659904768653,0.03371265964531719,negative favors Adaptive WRR
+Default traffic,None,file,average_delay_ms,Priority minus Adaptive WRR,20,-0.017217393253132228,-0.04975797102144036,0.015323184515175906,negative favors Adaptive WRR
+Default traffic,None,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.570477321207117,0.550577304802039,0.590377337612195,negative favors Adaptive WRR
+Default traffic,None,file,average_queue_packets,Priority minus Adaptive WRR,20,-1.6568920442152475,-1.7317034998891836,-1.5820805885413114,negative favors Adaptive WRR
+Default traffic,None,file,jain_fairness_index,Priority minus Adaptive WRR,20,2.737932957056488e-05,1.32434372311123e-05,4.151522191001746e-05,positive favors Adaptive WRR
+Default traffic,None,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.038694905261516054,0.020727497024263276,0.05666231349876883,negative favors Adaptive WRR
+Default traffic,None,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.10034577359271091,0.08738484033321156,0.11330670685221025,negative favors Adaptive WRR
+Default traffic,None,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,81.38020917748894,79.41479305208955,83.34562530288832,negative favors Adaptive WRR
+Default traffic,None,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007528551464452837,-0.007825094629025838,-0.007232008299879836,positive favors Adaptive WRR
+Default traffic,None,video,throughput_mbps,Round Robin minus Adaptive WRR,20,-0.387984,-0.4159222627445614,-0.3600457372554386,negative favors Adaptive WRR
+Default traffic,None,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,6.234808192024228,5.683316425755795,6.786299958292661,negative favors Adaptive WRR
+Default traffic,None,video,average_delay_ms,Round Robin minus Adaptive WRR,20,176.26675957849056,172.0270625807815,180.50645657619964,negative favors Adaptive WRR
+Default traffic,None,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.3689940728235048,0.3604660596811415,0.37752208596586817,negative favors Adaptive WRR
+Default traffic,None,video,average_queue_packets,Round Robin minus Adaptive WRR,20,81.38020917748894,79.41479305208955,83.34562530288832,negative favors Adaptive WRR
+Default traffic,None,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007528551464452837,-0.007825094629025838,-0.007232008299879836,positive favors Adaptive WRR
+Default traffic,None,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.38795999999999997,0.3599142998253493,0.41600570017465066,negative favors Adaptive WRR
+Default traffic,None,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-3.2309139443017556,-3.4621238569755715,-2.9997040316279397,negative favors Adaptive WRR
+Default traffic,None,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-14.816318113755193,-16.020839257941283,-13.611796969569104,negative favors Adaptive WRR
+Default traffic,None,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.4300981116598403,-0.436740688600049,-0.4234555347196316,negative favors Adaptive WRR
+Default traffic,None,file,average_queue_packets,Round Robin minus Adaptive WRR,20,81.38020917748894,79.41479305208955,83.34562530288832,negative favors Adaptive WRR
+Default traffic,None,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007528551464452837,-0.007825094629025838,-0.007232008299879836,positive favors Adaptive WRR
+Default traffic,None,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.12189020271828296,0.10521726919400018,0.13856313624256575,negative favors Adaptive WRR
+Default traffic,None,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.22911241352650752,0.207188497905408,0.25103632914760704,negative favors Adaptive WRR
+Default traffic,None,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.48570833269045294,-0.5037713007124337,-0.4676453646684722,negative favors Adaptive WRR
+Default traffic,None,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.877317295160944e-06,2.2397669974368125e-06,9.514867592885076e-06,positive favors Adaptive WRR
+Default traffic,None,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0005759999999999987,0.00023726463489090916,0.0009147353651090882,negative favors Adaptive WRR
+Default traffic,None,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,None,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-0.9949272235050689,-1.0287650212312964,-0.9610894257788414,negative favors Adaptive WRR
+Default traffic,None,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.13540656210329632,-0.14194239101980308,-0.12887073318678957,negative favors Adaptive WRR
+Default traffic,None,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.48570833269045294,-0.5037713007124337,-0.4676453646684722,negative favors Adaptive WRR
+Default traffic,None,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.877317295160944e-06,2.2397669974368125e-06,9.514867592885076e-06,positive favors Adaptive WRR
+Default traffic,None,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-0.0006600000000000605,-0.001045451902631382,-0.00027454809736873905,negative favors Adaptive WRR
+Default traffic,None,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.004505495871663712,0.0021136365574961928,0.006897355185831231,negative favors Adaptive WRR
+Default traffic,None,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.022775169244391692,0.011713244516536454,0.033837093972246934,negative favors Adaptive WRR
+Default traffic,None,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.012288705089888153,-0.018615134686338772,-0.0059622754934375325,negative favors Adaptive WRR
+Default traffic,None,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.48570833269045294,-0.5037713007124337,-0.4676453646684722,negative favors Adaptive WRR
+Default traffic,None,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.877317295160944e-06,2.2397669974368125e-06,9.514867592885076e-06,positive favors Adaptive WRR
+Default traffic,Token Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-0.00026399999999999964,-0.0004041430104939798,-0.00012385698950601948,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,76.93596051541306,66.45805757117523,87.41386345965088,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,3.7517867162142045,3.6259147538188365,3.8776586786095724,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,3.70315275122625,1.1204361088361119,6.285869393616387,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.00022925810571707838,-0.00030208479898776645,-0.0001564314124463903,positive favors Adaptive WRR
+Default traffic,Token Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,-0.03057599999999989,-0.040769663705474364,-0.02038233629452542,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,0.33865963409180316,0.18581346200347704,0.4915058061801293,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,73.07870383948276,62.653831487093356,83.50357619187216,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,0.32417999402043246,0.3186259510732593,0.3297340369676056,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,3.70315275122625,1.1204361088361119,6.285869393616387,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.00022925810571707838,-0.00030208479898776645,-0.0001564314124463903,positive favors Adaptive WRR
+Default traffic,Token Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.019619999999999926,0.011828977935880187,0.027411022064119665,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-0.02546649002237898,-0.059488691240857164,0.008555711196099203,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-38.09789950625755,-44.474644711748105,-31.721154300766994,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.031541943771468704,-0.03349319337063076,-0.02959069417230665,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,3.70315275122625,1.1204361088361119,6.285869393616387,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.00022925810571707838,-0.00030208479898776645,-0.0001564314124463903,positive favors Adaptive WRR
+Default traffic,Token Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,1.599999999999935e-05,-7.048022287571827e-06,3.904802228757052e-05,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.6357799841293654,-0.6557613436347431,-0.6157986246239877,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.36327152584362093,-0.37862568416808584,-0.34791736751915603,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-0.8067527502594958,-1.3592267353321192,-0.2542787651868723,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,2.5524850188118896e-05,1.2818087916759815e-05,3.823161245947798e-05,positive favors Adaptive WRR
+Default traffic,Token Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0026399999999999757,0.0013956202223842679,0.0038843797776156835,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-3.115686472298809,-3.2772784581700627,-2.9540944864275556,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.5949451178302477,-0.6062598823524141,-0.5836303533080813,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-0.8067527502594958,-1.3592267353321192,-0.2542787651868723,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,2.5524850188118896e-05,1.2818087916759815e-05,3.823161245947798e-05,positive favors Adaptive WRR
+Default traffic,Token Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.003239999999999954,-0.004890993078145445,-0.0015890069218544626,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.0064621841747412225,-0.001109590444056327,0.014033958793538772,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,1.200064336455989,1.1265068400448208,1.2736218328671574,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.04549349263434619,0.04332723419394996,0.04765975107474242,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-0.8067527502594958,-1.3592267353321192,-0.2542787651868723,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,2.5524850188118896e-05,1.2818087916759815e-05,3.823161245947798e-05,positive favors Adaptive WRR
+Default traffic,Token Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-1.6000000000000043e-05,-3.904802228757222e-05,7.048022287572135e-06,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.0009130929706514634,-0.024948563326331732,0.026774749267634658,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.10742641581184979,0.09425215364139765,0.12060067798230194,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,4.435074056144073,1.8537177361274715,7.016430376160674,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017915359389847896,-0.00023686908735603523,-0.0001214381004409227,positive favors Adaptive WRR
+Default traffic,Token Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,-0.025679999999999925,-0.03477842391976741,-0.01658157608023244,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.21435232927748085,0.05821438340101748,0.3704902751539442,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,71.25036487250624,58.980597689428016,83.52013205558445,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.3423484062526251,0.3362253765813399,0.3484714359239103,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,4.435074056144073,1.8537177361274715,7.016430376160674,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017915359389847896,-0.00023686908735603523,-0.0001214381004409227,positive favors Adaptive WRR
+Default traffic,Token Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.019619999999999926,0.011878139208513258,0.027361860791486593,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-0.02546649002237898,-0.059488691240857164,0.008555711196099203,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-32.72492321086001,-39.08392591593171,-26.365920505788317,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.029211663854826375,-0.03095194433820436,-0.02747138337144839,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,4.435074056144073,1.8537177361274715,7.016430376160674,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017915359389847896,-0.00023686908735603523,-0.0001214381004409227,positive favors Adaptive WRR
+Default traffic,Token Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,7.999999999999674e-06,-8.743999999999642e-06,2.474399999999899e-05,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.1414246698090073,0.1239990825102858,0.15885025710772882,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.23505594224002785,0.21019218153874303,0.25991970294131267,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.16991518435294886,-0.28911359279825344,-0.050716775907644285,negative favors Adaptive WRR
+Default traffic,Token Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.70891252882344e-06,2.3042051086953994e-06,9.11361994895148e-06,positive favors Adaptive WRR
+Default traffic,Token Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0005279999999999952,0.00018692041754204036,0.00086907958245795,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-0.9312832780332523,-0.9790950936977638,-0.8834714623687407,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.12379293482083331,-0.13150614399005417,-0.11607972565161245,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.16991518435294886,-0.28911359279825344,-0.050716775907644285,negative favors Adaptive WRR
+Default traffic,Token Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.70891252882344e-06,2.3042051086953994e-06,9.11361994895148e-06,positive favors Adaptive WRR
+Default traffic,Token Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-0.0005999999999998895,-0.0009865270843644556,-0.0002134729156353234,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0009924081026354626,-0.0004371965773322631,0.0024220127826031883,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.3480029495873168,0.310825446139853,0.3851804530347806,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.0012637203398203956,-2.3172296519020832e-05,0.002550612976159812,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.16991518435294886,-0.28911359279825344,-0.050716775907644285,negative favors Adaptive WRR
+Default traffic,Token Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,5.70891252882344e-06,2.3042051086953994e-06,9.11361994895148e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-0.0002799999999999997,-0.00042140086378058183,-0.00013859913621941757,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,28.63409806963669,24.228714097184955,33.03948204208842,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,3.5380827072920757,3.424555373922066,3.6516100406620855,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,1.9842801612828602,1.610755579613415,2.3578047429523052,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-6.120684400005571e-05,-8.93820071665767e-05,-3.303168083353472e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,-0.004128000000000043,-0.006353536891107249,-0.001902463108892837,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,7.606144091940061,5.622245136691542,9.59004304718858,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.03095105373522624,-0.036081808005760746,-0.025820299464691738,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,1.9842801612828602,1.610755579613415,2.3578047429523052,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-6.120684400005571e-05,-8.93820071665767e-05,-3.303168083353472e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.004260000000000108,0.0019662078922311737,0.006553792107769043,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-7.632621366060599,-9.586866403427646,-5.678376328693552,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.07243956917559935,-0.0802089037904858,-0.0646702345607129,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,1.9842801612828602,1.610755579613415,2.3578047429523052,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-6.120684400005571e-05,-8.93820071665767e-05,-3.303168083353472e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.43026986231468056,-0.4619055865063794,-0.3986341381229817,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.27740531307948346,-0.3008304884339952,-0.25398013772497174,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-0.071275455750325,-0.07619364217278306,-0.06635726932786694,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,1.908230270475375e-06,3.011185523610939e-07,3.515341988589656e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0002880000000000216,7.676138649634879e-05,0.0004992386135036944,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-0.5287310919954498,-0.5623315374642099,-0.49513064652668964,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.03948033599649629,-0.043521976178501294,-0.03543869581449128,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-0.071275455750325,-0.07619364217278306,-0.06635726932786694,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,1.908230270475375e-06,3.011185523610939e-07,3.515341988589656e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.00030000000000001136,-0.0005495021601003631,-5.049783989965963e-05,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,0.5048606450423264,0.4703781789813348,0.539343111103318,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,-0.05408765847230429,-0.062323942579774264,-0.045851374364834316,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-0.071275455750325,-0.07619364217278306,-0.06635726932786694,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,1.908230270475375e-06,3.011185523610939e-07,3.515341988589656e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-1.6000000000000043e-05,-3.904802228757222e-05,7.048022287572135e-06,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.1653814812914261,0.13202906867361408,0.19873389390923812,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.16663968758834474,0.1437414444262356,0.1895379307504539,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,0.8114819104522135,0.6053845839935132,1.0175792369109138,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-2.5842979327223016e-05,-3.720262084392577e-05,-1.448333781052026e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,-0.004320000000000057,-0.006645452935092602,-0.0019945470649075127,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,8.06149667379217,6.014043447106878,10.108949900477462,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.01218163118908372,-0.016847736020958785,-0.007515526357208653,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,0.8114819104522135,0.6053845839935132,1.0175792369109138,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-2.5842979327223016e-05,-3.720262084392577e-05,-1.448333781052026e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.00420000000000007,0.0019278402066015758,0.006472159793398564,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-7.619504995039942,-9.573614837893283,-5.665395152186602,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.07400570832127183,-0.08184413957226744,-0.06616727707027623,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,0.8114819104522135,0.6053845839935132,1.0175792369109138,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-2.5842979327223016e-05,-3.720262084392577e-05,-1.448333781052026e-05,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-8.000000000000367e-06,-2.4744000000001137e-05,8.744000000000403e-06,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.21158968201169076,0.19217445048480164,0.23100491353857988,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.19599764183977833,0.17546099044300428,0.21653429323655238,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.04309559650494316,-0.0474316058542226,-0.038759587155663716,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,8.291427719853139e-07,-2.1091020196383034e-06,3.7673875636089316e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0002880000000000216,7.676138649634879e-05,0.0004992386135036944,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-0.524009671538517,-0.5576401719081476,-0.49037917116888635,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.03798601709226781,-0.04183452639093786,-0.034137507793597754,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.04309559650494316,-0.0474316058542226,-0.038759587155663716,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,8.291427719853139e-07,-2.1091020196383034e-06,3.7673875636089316e-06,positive favors Adaptive WRR
+Default traffic,Leaky Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-0.00030000000000001136,-0.0005495021601003631,-5.049783989965963e-05,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.49038275101752615,0.45611433822526976,0.5246511638097826,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.05603479102236002,-0.06457364912093726,-0.04749593292378278,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.04309559650494316,-0.0474316058542226,-0.038759587155663716,negative favors Adaptive WRR
+Default traffic,Leaky Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,8.291427719853139e-07,-2.1091020196383034e-06,3.7673875636089316e-06,positive favors Adaptive WRR
+Congested voice,None,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-3.083672,-3.0854872055215994,-3.0818567944784006,negative favors Adaptive WRR
+Congested voice,None,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,77.04921858012969,76.87061531763509,77.2278218426243,negative favors Adaptive WRR
+Congested voice,None,voice,average_delay_ms,FIFO minus Adaptive WRR,20,180.81800299381203,180.28041335546567,181.3555926321584,negative favors Adaptive WRR
+Congested voice,None,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,0.34624058757232523,0.33823948909532886,0.3542416860493216,negative favors Adaptive WRR
+Congested voice,None,voice,average_queue_packets,FIFO minus Adaptive WRR,20,13.17133385112528,12.149452024444651,14.193215677805908,negative favors Adaptive WRR
+Congested voice,None,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.20960261225600033,-0.20986618365176993,-0.20933904086023072,positive favors Adaptive WRR
+Congested voice,None,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.19219199999999986,0.1874002280326512,0.19698377196734854,negative favors Adaptive WRR
+Congested voice,None,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-3.94754654592957,-4.052851504846433,-3.842241587012707,negative favors Adaptive WRR
+Congested voice,None,video,average_delay_ms,FIFO minus Adaptive WRR,20,-7.402451996215497,-8.541239988872377,-6.263664003558617,negative favors Adaptive WRR
+Congested voice,None,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.700382787963804,-0.7122371462462878,-0.6885284296813203,negative favors Adaptive WRR
+Congested voice,None,video,average_queue_packets,FIFO minus Adaptive WRR,20,13.17133385112528,12.149452024444651,14.193215677805908,negative favors Adaptive WRR
+Congested voice,None,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.20960261225600033,-0.20986618365176993,-0.20933904086023072,positive favors Adaptive WRR
+Congested voice,None,file,throughput_mbps,FIFO minus Adaptive WRR,20,2.89134,2.8870533040722695,2.8956266959277306,negative favors Adaptive WRR
+Congested voice,None,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-24.02388444347173,-24.127285254572403,-23.920483632371056,negative favors Adaptive WRR
+Congested voice,None,file,average_delay_ms,FIFO minus Adaptive WRR,20,-260.603651623651,-260.8555069316245,-260.35179631567746,negative favors Adaptive WRR
+Congested voice,None,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.3127866961711159,-0.32761469435417917,-0.2979586979880526,negative favors Adaptive WRR
+Congested voice,None,file,average_queue_packets,FIFO minus Adaptive WRR,20,13.17133385112528,12.149452024444651,14.193215677805908,negative favors Adaptive WRR
+Congested voice,None,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.20960261225600033,-0.20986618365176993,-0.20933904086023072,positive favors Adaptive WRR
+Congested voice,None,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.193096,0.1833784869805561,0.2028135130194439,negative favors Adaptive WRR
+Congested voice,None,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-4.462417288791758,-4.691656169589542,-4.233178407993974,negative favors Adaptive WRR
+Congested voice,None,voice,average_delay_ms,Priority minus Adaptive WRR,20,-35.80019090780464,-36.19809261179393,-35.40228920381535,negative favors Adaptive WRR
+Congested voice,None,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.21426407444060613,-0.21595192418946993,-0.21257622469174234,negative favors Adaptive WRR
+Congested voice,None,voice,average_queue_packets,Priority minus Adaptive WRR,20,-176.03183271770268,-177.11931627520818,-174.9443491601972,negative favors Adaptive WRR
+Congested voice,None,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,None,video,throughput_mbps,Priority minus Adaptive WRR,20,1.0020959999999999,0.9779141208981806,1.0262778791018192,negative favors Adaptive WRR
+Congested voice,None,video,packet_loss_percent,Priority minus Adaptive WRR,20,-18.90063013932844,-19.320281733885714,-18.48097854477117,negative favors Adaptive WRR
+Congested voice,None,video,average_delay_ms,Priority minus Adaptive WRR,20,-226.903860453327,-228.0988702957476,-225.70885061090644,negative favors Adaptive WRR
+Congested voice,None,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.5133301126446501,-0.5271632969543573,-0.49949692833494297,negative favors Adaptive WRR
+Congested voice,None,video,average_queue_packets,Priority minus Adaptive WRR,20,-176.03183271770268,-177.11931627520818,-174.9443491601972,negative favors Adaptive WRR
+Congested voice,None,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,None,file,throughput_mbps,Priority minus Adaptive WRR,20,-1.1951399999999999,-1.2246949184171962,-1.1655850815828035,negative favors Adaptive WRR
+Congested voice,None,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.934578003804432,9.672292621662079,10.196863385946786,negative favors Adaptive WRR
+Congested voice,None,file,average_delay_ms,Priority minus Adaptive WRR,20,436.5130168826105,415.48805974675696,457.537974018464,negative favors Adaptive WRR
+Congested voice,None,file,average_jitter_ms,Priority minus Adaptive WRR,20,10.957144411328754,10.643310407047446,11.270978415610061,negative favors Adaptive WRR
+Congested voice,None,file,average_queue_packets,Priority minus Adaptive WRR,20,-176.03183271770268,-177.11931627520818,-174.9443491601972,negative favors Adaptive WRR
+Congested voice,None,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,None,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-3.117088,-3.117941641552219,-3.1162343584477807,negative favors Adaptive WRR
+Congested voice,None,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,77.88442244903507,77.69750265044627,78.07134224762387,negative favors Adaptive WRR
+Congested voice,None,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,191.83663241651905,191.44409502476168,192.22916980827642,negative favors Adaptive WRR
+Congested voice,None,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.002644541276797846,-0.0018139570476776523,0.007103039601273345,negative favors Adaptive WRR
+Congested voice,None,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,9.3509107041031,8.472366276794414,10.229455131411786,negative favors Adaptive WRR
+Congested voice,None,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.2094315682651126,-0.20949759185643105,-0.20936554467379417,positive favors Adaptive WRR
+Congested voice,None,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.3270719999999997,0.3265055623210389,0.3276384376789605,negative favors Adaptive WRR
+Congested voice,None,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-6.7738031475995015,-6.813819124088316,-6.733787171110687,negative favors Adaptive WRR
+Congested voice,None,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-24.180919390865306,-24.637922749074697,-23.723916032655914,negative favors Adaptive WRR
+Congested voice,None,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.09913404833492041,-0.10445500333737204,-0.09381309333246879,negative favors Adaptive WRR
+Congested voice,None,video,average_queue_packets,Round Robin minus Adaptive WRR,20,9.3509107041031,8.472366276794414,10.229455131411786,negative favors Adaptive WRR
+Congested voice,None,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.2094315682651126,-0.20949759185643105,-0.20936554467379417,positive favors Adaptive WRR
+Congested voice,None,file,throughput_mbps,Round Robin minus Adaptive WRR,20,2.79,2.789423799442811,2.7905762005571892,negative favors Adaptive WRR
+Congested voice,None,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-23.18286024668712,-23.280671239723592,-23.08504925365065,negative favors Adaptive WRR
+Congested voice,None,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-255.9968089371292,-256.1445101608344,-255.84910771342402,negative favors Adaptive WRR
+Congested voice,None,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.3001205005860721,-0.31129873964523785,-0.28894226152690633,negative favors Adaptive WRR
+Congested voice,None,file,average_queue_packets,Round Robin minus Adaptive WRR,20,9.3509107041031,8.472366276794414,10.229455131411786,negative favors Adaptive WRR
+Congested voice,None,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.2094315682651126,-0.20949759185643105,-0.20936554467379417,positive favors Adaptive WRR
+Congested voice,None,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-2.324208,-2.33101747177862,-2.3173985282213803,negative favors Adaptive WRR
+Congested voice,None,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,58.0673946934682,57.89879859421467,58.235990792721736,negative favors Adaptive WRR
+Congested voice,None,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,69.67242139963571,69.05925955651017,70.28558324276125,negative favors Adaptive WRR
+Congested voice,None,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,1.2297455152345529,1.219580291162625,1.2399107393064808,negative favors Adaptive WRR
+Congested voice,None,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.78350383690905,-77.93062233404711,-75.63638533977098,negative favors Adaptive WRR
+Congested voice,None,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,None,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,1.000848,0.9772458911208876,1.0244501088791123,negative favors Adaptive WRR
+Congested voice,None,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-18.90063013932844,-19.320281733885714,-18.48097854477117,negative favors Adaptive WRR
+Congested voice,None,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-222.87870758512562,-224.35710118534732,-221.40031398490393,negative favors Adaptive WRR
+Congested voice,None,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.3115370123588718,-0.32590515531894315,-0.2971688693988005,negative favors Adaptive WRR
+Congested voice,None,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.78350383690905,-77.93062233404711,-75.63638533977098,negative favors Adaptive WRR
+Congested voice,None,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,None,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,1.32342,1.3064888439590074,1.3403511560409926,negative favors Adaptive WRR
+Congested voice,None,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-10.994628473205804,-11.133542140469093,-10.855714805942515,negative favors Adaptive WRR
+Congested voice,None,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-169.51898528782903,-170.9322972067768,-168.10567336888124,negative favors Adaptive WRR
+Congested voice,None,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.05948635688564182,0.0410979269372532,0.07787478683403044,negative favors Adaptive WRR
+Congested voice,None,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.78350383690905,-77.93062233404711,-75.63638533977098,negative favors Adaptive WRR
+Congested voice,None,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,Token Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-3.055864,-3.05832104781764,-3.0534069521823604,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,76.3550035045811,76.1836723921916,76.52633461697062,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,172.89840561286047,172.20875102917225,173.5880601965487,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,0.7111967871292635,0.7028127996669667,0.7195807745915602,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,-82.82797981374009,-83.9373842428291,-81.71857538465107,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19966650094784155,-0.1999418288361484,-0.19939117305953472,positive favors Adaptive WRR
+Congested voice,Token Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.34128,0.33889589403640646,0.3436641059635935,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-7.04373853579397,-7.108140561274152,-6.9793365103137885,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,-16.260659003889927,-17.52231061577584,-14.999007392004016,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.2259027606260279,-0.23319261124344706,-0.21861291000860875,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,-82.82797981374009,-83.9373842428291,-81.71857538465107,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19966650094784155,-0.1999418288361484,-0.19939117305953472,positive favors Adaptive WRR
+Congested voice,Token Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,2.71464,2.714019413007515,2.7152605869924855,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-21.77139866410804,-21.864062440393237,-21.678734887822845,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-1224.231811718441,-1229.0730196768563,-1219.3906037600254,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.38990178751750093,-0.39237342422982324,-0.3874301508051786,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,-82.82797981374009,-83.9373842428291,-81.71857538465107,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19966650094784155,-0.1999418288361484,-0.19939117305953472,positive favors Adaptive WRR
+Congested voice,Token Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.193096,0.1833784869805561,0.2028135130194439,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-4.462417288791758,-4.691656169589542,-4.233178407993974,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-35.80019090780464,-36.19809261179393,-35.40228920381535,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.21426407444060613,-0.21595192418946993,-0.21257622469174234,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-176.0425972812055,-177.12931108059092,-174.95588348182008,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,Token Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,1.0020959999999999,0.9779141208981806,1.0262778791018192,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,-18.90063013932844,-19.320281733885714,-18.48097854477117,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-226.903860453327,-228.0988702957476,-225.70885061090644,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.5133301126446501,-0.5271632969543573,-0.49949692833494297,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-176.0425972812055,-177.12931108059092,-174.95588348182008,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,Token Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-1.1951399999999999,-1.2246949184171962,-1.1655850815828035,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.736187201704935,9.471676240289069,10.0006981631208,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,749.2966557055985,728.4415309870404,770.1517804241565,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.8428694285274275,0.821101707096025,0.86463714995883,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-176.0425972812055,-177.12931108059092,-174.95588348182008,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13925354976958054,-0.14338692493176242,-0.13512017460739867,positive favors Adaptive WRR
+Congested voice,Token Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-3.106304,-3.107131948495615,-3.1054760515043855,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,77.61425497893902,77.42844684481024,77.8000631130678,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,188.299284128232,187.90803355480668,188.6905347016573,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.05040105339252399,0.047027741100465176,0.0537743656845828,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,-67.35795253282001,-68.31064206935899,-66.40526299628102,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20566608692541893,-0.20572404723525187,-0.205608126615586,positive favors Adaptive WRR
+Congested voice,Token Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.39168000000000014,0.39109692603207175,0.39226307396792853,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-8.102476258272986,-8.15174883794712,-8.053203678598853,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-28.323156861785396,-28.734245840261188,-27.912067883309604,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.09891552125978582,-0.10510640213401887,-0.09272464038555278,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,-67.35795253282001,-68.31064206935899,-66.40526299628102,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20566608692541893,-0.20572404723525187,-0.205608126615586,positive favors Adaptive WRR
+Congested voice,Token Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,2.71452,2.713918428957234,2.715121571042766,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-21.77139866410804,-21.864062440393237,-21.678734887822845,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-1204.831578698206,-1209.7836203314346,-1199.8795370649773,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.38865324338299156,-0.39132831158463877,-0.38597817518134436,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,-67.35795253282001,-68.31064206935899,-66.40526299628102,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20566608692541893,-0.20572404723525187,-0.205608126615586,positive favors Adaptive WRR
+Congested voice,Token Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-2.324208,-2.33101747177862,-2.3173985282213803,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,58.0673946934682,57.89879859421467,58.235990792721736,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,69.67242139963571,69.05925955651017,70.28558324276125,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,1.2297455152345529,1.219580291162625,1.2399107393064808,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.90887964667498,-78.05600323845974,-75.76175605489021,negative favors Adaptive WRR
+Congested voice,Token Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,Token Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,1.000848,0.9772458911208876,1.0244501088791123,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-18.90063013932844,-19.320281733885714,-18.48097854477117,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-222.87870758512562,-224.35710118534732,-221.40031398490393,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.3115370123588718,-0.32590515531894315,-0.2971688693988005,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.90887964667498,-78.05600323845974,-75.76175605489021,negative favors Adaptive WRR
+Congested voice,Token Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,Token Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,1.32342,1.3064888439590074,1.3403511560409926,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-11.191015899738801,-11.332976321674211,-11.04905547780339,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-649.0122190082723,-657.1736129548586,-640.8508250616859,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.19660238421221532,-0.19927791878956558,-0.19392684963486506,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-76.90887964667498,-78.05600323845974,-75.76175605489021,negative favors Adaptive WRR
+Congested voice,Token Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10800863549694326,-0.10977994601011765,-0.10623732498376887,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-3.079632,-3.0882735263283068,-3.0709904736716935,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,76.9604947623228,76.6931226154829,77.22786690916269,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,179.67153509843558,177.0076548817234,182.33541531514777,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,0.3795668688075082,0.37498816969398424,0.3841455679210321,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,-70.37498410898169,-72.33143785209438,-68.418530365869,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19913602610675823,-0.20014542168978675,-0.19812663052372972,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.48724799999999996,0.47519983511075636,0.49929616488924355,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-10.117355256751841,-10.33962288460474,-9.895087628898942,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,-24.832458168034567,-25.867420445333536,-23.797495890735597,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.8080783013567704,-0.8176260817165132,-0.7985305209970276,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,-70.37498410898169,-72.33143785209438,-68.418530365869,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19913602610675823,-0.20014542168978675,-0.19812663052372972,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,2.59212,2.58723451239562,2.5970054876043798,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-20.96427782702329,-21.057762305899402,-20.87079334814718,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-424.884777642416,-428.65282187589423,-421.11673340893776,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.5687603877966119,-0.5802876533091584,-0.5572331222840653,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,-70.37498410898169,-72.33143785209438,-68.418530365869,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.19913602610675823,-0.20014542168978675,-0.19812663052372972,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.19327999999999998,0.18360766892075422,0.20295233107924573,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-4.460412227970628,-4.69036927506446,-4.230455180876796,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-36.2309164140436,-36.61679057840062,-35.84504224968658,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.11267373398396514,-0.1155026088810667,-0.10984485908686359,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-178.92490602781945,-179.92471005535452,-177.92510200028437,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13809074960746057,-0.1420862069485793,-0.13409529226634184,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.9937919999999998,0.9704947471456888,1.0170892528543107,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,-18.70704599684069,-19.100173964699618,-18.313918028981764,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-231.04275319872704,-232.17105646797202,-229.91444992948206,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.29532411706698347,-0.3054172393311575,-0.28523099480280945,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-178.92490602781945,-179.92471005535452,-177.92510200028437,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13809074960746057,-0.1420862069485793,-0.13409529226634184,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-1.1871,-1.215784068762725,-1.158415931237275,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.647499334003559,9.396675215455335,9.898323452551782,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,375.29729177749635,358.2597315218144,392.3348520331783,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,6.302189720665833,6.120351930298041,6.484027511033625,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-178.92490602781945,-179.92471005535452,-177.92510200028437,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.13809074960746057,-0.1420862069485793,-0.13409529226634184,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-3.089112,-3.090302312526966,-3.087921687473034,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,77.1973140695767,77.01085753890887,77.38377060024455,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,182.65449165743775,182.14464662763237,183.16433668724312,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.2801801342841574,0.2762476125594127,0.28411265600890206,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,-90.57065829192874,-91.40396761121595,-89.73734897264153,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20084807241357422,-0.2009855427456282,-0.20071060208152025,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.47424,0.47334142266683377,0.4751385773331662,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-9.852996553699887,-9.907222015236519,-9.798771092163255,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-36.31858242277878,-37.56749674115301,-35.069668104404556,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.11071808809709256,-0.11697095966511917,-0.10446521652906596,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,-90.57065829192874,-91.40396761121595,-89.73734897264153,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20084807241357422,-0.2009855427456282,-0.20071060208152025,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,2.6147400000000003,2.6140232148442126,2.615456785155788,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-20.96427782702329,-21.057762305899402,-20.87079334814718,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-461.55268862918695,-461.99432156295626,-461.11105569541763,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.5382185119044163,-0.5463123910157821,-0.5301246327930504,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,-90.57065829192874,-91.40396761121595,-89.73734897264153,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.20084807241357422,-0.2009855427456282,-0.20071060208152025,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-2.3212800000000002,-2.3278883056135573,-2.314671694386443,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,58.003015534653514,57.83694563512613,58.1690854341809,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,69.17305059506442,68.58484771588539,69.76125347424346,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,1.2383905774113106,1.2283461776366327,1.2484349771859886,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-84.71019131261826,-85.67164581216733,-83.7487368130692,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10741439834246477,-0.10915900209884831,-0.10566979458608124,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.993792,0.9704601146710118,1.0171238853289883,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-18.70704599684069,-19.100173964699618,-18.313918028981764,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-231.2334049968337,-232.3556897129172,-230.1111202807502,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.2235265740814108,-0.23543773022339176,-0.21161541793942984,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-84.71019131261826,-85.67164581216733,-83.7487368130692,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10741439834246477,-0.10915900209884831,-0.10566979458608124,positive favors Adaptive WRR
+Congested voice,Leaky Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,1.32726,1.3104319100708377,1.3440880899291625,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-11.227579068750506,-11.36836773042712,-11.086790407073892,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-169.18730305999114,-170.49888269729695,-167.87572342268533,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.03618675965561019,-0.046149257598206844,-0.026224261713013536,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-84.71019131261826,-85.67164581216733,-83.7487368130692,negative favors Adaptive WRR
+Congested voice,Leaky Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,-0.10741439834246477,-0.10915900209884831,-0.10566979458608124,positive favors Adaptive WRR
+Changing traffic,None,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-1.528696,-1.530487608,-1.526904392,negative favors Adaptive WRR
+Changing traffic,None,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,38.182513704180394,38.080175959514314,38.284851448846474,negative favors Adaptive WRR
+Changing traffic,None,voice,average_delay_ms,FIFO minus Adaptive WRR,20,16.685522833687468,16.307747177858054,17.06329848951688,negative favors Adaptive WRR
+Changing traffic,None,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.0685073653726875,-0.07103638087500795,-0.06597834987036706,negative favors Adaptive WRR
+Changing traffic,None,voice,average_queue_packets,FIFO minus Adaptive WRR,20,9.146879416234238,8.215742206960183,10.078016625508294,negative favors Adaptive WRR
+Changing traffic,None,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18038187215130025,0.17981851461704232,0.18094522968555818,positive favors Adaptive WRR
+Changing traffic,None,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.06600000000000002,0.06175797408658254,0.0702420259134175,negative favors Adaptive WRR
+Changing traffic,None,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-2.6818352946341237,-2.853729744402671,-2.5099408448655764,negative favors Adaptive WRR
+Changing traffic,None,video,average_delay_ms,FIFO minus Adaptive WRR,20,3.6485535364928454,1.4973694130166049,5.799737659969086,negative favors Adaptive WRR
+Changing traffic,None,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.6945867481512582,-0.7079901866206074,-0.681183309681909,negative favors Adaptive WRR
+Changing traffic,None,video,average_queue_packets,FIFO minus Adaptive WRR,20,9.146879416234238,8.215742206960183,10.078016625508294,negative favors Adaptive WRR
+Changing traffic,None,video,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18038187215130025,0.17981851461704232,0.18094522968555818,positive favors Adaptive WRR
+Changing traffic,None,file,throughput_mbps,FIFO minus Adaptive WRR,20,1.4626199999999998,1.4587150985590682,1.4665249014409314,negative favors Adaptive WRR
+Changing traffic,None,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-24.29077983373826,-24.45079212773093,-24.130767539745587,negative favors Adaptive WRR
+Changing traffic,None,file,average_delay_ms,FIFO minus Adaptive WRR,20,-247.56743546304506,-248.03093766964787,-247.10393325644225,negative favors Adaptive WRR
+Changing traffic,None,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.551622384858007,-0.5731125260562936,-0.5301322436597203,negative favors Adaptive WRR
+Changing traffic,None,file,average_queue_packets,FIFO minus Adaptive WRR,20,9.146879416234238,8.215742206960183,10.078016625508294,negative favors Adaptive WRR
+Changing traffic,None,file,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18038187215130025,0.17981851461704232,0.18094522968555818,positive favors Adaptive WRR
+Changing traffic,None,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.09646400000000006,0.08973335045366222,0.1031946495463379,negative favors Adaptive WRR
+Changing traffic,None,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-2.04497584344885,-2.210762684293658,-1.8791890026040414,negative favors Adaptive WRR
+Changing traffic,None,voice,average_delay_ms,Priority minus Adaptive WRR,20,-16.880091861276554,-17.238032461877243,-16.522151260675866,negative favors Adaptive WRR
+Changing traffic,None,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.10327566860743238,-0.10443210831806013,-0.10211922889680464,negative favors Adaptive WRR
+Changing traffic,None,voice,average_queue_packets,Priority minus Adaptive WRR,20,-84.19356277652943,-85.14480075817407,-83.2423247948848,negative favors Adaptive WRR
+Changing traffic,None,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,None,video,throughput_mbps,Priority minus Adaptive WRR,20,0.49756800000000007,0.48293942188817457,0.5121965781118256,negative favors Adaptive WRR
+Changing traffic,None,video,packet_loss_percent,Priority minus Adaptive WRR,20,-16.89419803236013,-17.406062171938622,-16.382333892781638,negative favors Adaptive WRR
+Changing traffic,None,video,average_delay_ms,Priority minus Adaptive WRR,20,-212.58743169026678,-214.7160487345852,-210.45881464594837,negative favors Adaptive WRR
+Changing traffic,None,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.5273213868968256,-0.5434947158176427,-0.5111480579760085,negative favors Adaptive WRR
+Changing traffic,None,video,average_queue_packets,Priority minus Adaptive WRR,20,-84.19356277652943,-85.14480075817407,-83.2423247948848,negative favors Adaptive WRR
+Changing traffic,None,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,None,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.5940000000000001,-0.6097820059876865,-0.5782179940123137,negative favors Adaptive WRR
+Changing traffic,None,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.864964668219502,9.606961319280103,10.1229680171589,negative favors Adaptive WRR
+Changing traffic,None,file,average_delay_ms,Priority minus Adaptive WRR,20,372.68870112444984,353.83636352180457,391.5410387270951,negative favors Adaptive WRR
+Changing traffic,None,file,average_jitter_ms,Priority minus Adaptive WRR,20,9.970129800290884,9.671978014720393,10.268281585861375,negative favors Adaptive WRR
+Changing traffic,None,file,average_queue_packets,Priority minus Adaptive WRR,20,-84.19356277652943,-85.14480075817407,-83.2423247948848,negative favors Adaptive WRR
+Changing traffic,None,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,None,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-1.557296,-1.5580288401299147,-1.5565631598700853,negative favors Adaptive WRR
+Changing traffic,None,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,38.89770683617046,38.79454864473221,39.000865027608704,negative favors Adaptive WRR
+Changing traffic,None,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,17.27144451581913,16.896205891362477,17.646683140275783,negative favors Adaptive WRR
+Changing traffic,None,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.12275788039653193,-0.12373059870965483,-0.12178516208340903,negative favors Adaptive WRR
+Changing traffic,None,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,4.9937647222168895,4.040573250053127,5.946956194380652,negative favors Adaptive WRR
+Changing traffic,None,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,None,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.163104,0.1626227431657871,0.1635852568342129,negative favors Adaptive WRR
+Changing traffic,None,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-6.744557462774324,-6.793283990903908,-6.69583093464474,negative favors Adaptive WRR
+Changing traffic,None,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-26.108476618308845,-27.193464682855723,-25.02348855376197,negative favors Adaptive WRR
+Changing traffic,None,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.11385249530222744,-0.12284221098924539,-0.10486277961520948,negative favors Adaptive WRR
+Changing traffic,None,video,average_queue_packets,Round Robin minus Adaptive WRR,20,4.9937647222168895,4.040573250053127,5.946956194380652,negative favors Adaptive WRR
+Changing traffic,None,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,None,file,throughput_mbps,Round Robin minus Adaptive WRR,20,1.3941599999999998,1.393488040453849,1.3948319595461507,negative favors Adaptive WRR
+Changing traffic,None,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-23.15669961455189,-23.2980401090881,-23.01535912001568,negative favors Adaptive WRR
+Changing traffic,None,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-241.62788976123056,-241.88659292274053,-241.3691865997206,negative favors Adaptive WRR
+Changing traffic,None,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.5190610980402155,-0.5344607123388131,-0.5036614837416179,negative favors Adaptive WRR
+Changing traffic,None,file,average_queue_packets,Round Robin minus Adaptive WRR,20,4.9937647222168895,4.040573250053127,5.946956194380652,negative favors Adaptive WRR
+Changing traffic,None,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,None,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-1.159648,-1.163945534342868,-1.155350465657132,negative favors Adaptive WRR
+Changing traffic,None,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,28.95891352413089,28.842392187990207,29.07543486027157,negative favors Adaptive WRR
+Changing traffic,None,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,11.63881684240227,11.260815139592365,12.016818545212177,negative favors Adaptive WRR
+Changing traffic,None,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.25129800397867647,0.24945604728471854,0.2531399606726344,negative favors Adaptive WRR
+Changing traffic,None,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.878130079303716,-35.9004712542335,-33.85578890437393,negative favors Adaptive WRR
+Changing traffic,None,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,None,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.495984,0.48131323225110983,0.5106547677488901,negative favors Adaptive WRR
+Changing traffic,None,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-16.89419803236013,-17.406062171938622,-16.382333892781638,negative favors Adaptive WRR
+Changing traffic,None,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-208.76491133177865,-211.35986668758216,-206.16995597597514,negative favors Adaptive WRR
+Changing traffic,None,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.32972584347385475,-0.3452499331799954,-0.3142017537677141,negative favors Adaptive WRR
+Changing traffic,None,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.878130079303716,-35.9004712542335,-33.85578890437393,negative favors Adaptive WRR
+Changing traffic,None,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,None,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.6636,0.6531804838956686,0.6740195161043313,negative favors Adaptive WRR
+Changing traffic,None,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-11.025255934132135,-11.223874481075365,-10.826637387188905,negative favors Adaptive WRR
+Changing traffic,None,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-160.55880191554485,-162.15218868096827,-158.96541515012143,negative favors Adaptive WRR
+Changing traffic,None,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.11488873731416796,-0.14177993158608282,-0.08799754304225309,negative favors Adaptive WRR
+Changing traffic,None,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.878130079303716,-35.9004712542335,-33.85578890437393,negative favors Adaptive WRR
+Changing traffic,None,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,Token Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-1.5190480000000002,-1.5209283688173334,-1.517167631182667,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,37.940625726171206,37.84710474194793,38.03414671039448,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,16.573450263344117,16.186967938360493,16.959932588327742,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.006471187865416762,-0.008436926394545885,-0.00450544933628764,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,-37.02877702019869,-37.9665871746946,-36.090966865702775,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18433384223869648,0.18382773876657596,0.184839945710817,positive favors Adaptive WRR
+Changing traffic,Token Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.11428800000000001,0.11241855105737739,0.11615744894262264,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-4.697081593314695,-4.774900900185887,-4.619262286443503,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,-2.3441029561006617,-4.637927582888715,-0.050278329312607895,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.20807830484380094,-0.2201054564683183,-0.19605115321928357,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,-37.02877702019869,-37.9665871746946,-36.090966865702775,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18433384223869648,0.18382773876657596,0.184839945710817,positive favors Adaptive WRR
+Changing traffic,Token Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,1.40454,1.4038964327269614,1.4051835672730384,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-21.77247061596038,-21.90697948461964,-21.63796174730112,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-653.6110016881075,-656.7676469416679,-650.4543564345472,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.4095188969260092,-0.4132593011370851,-0.40577849271493327,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,-37.02877702019869,-37.9665871746946,-36.090966865702775,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,0.18433384223869648,0.18382773876657596,0.184839945710817,positive favors Adaptive WRR
+Changing traffic,Token Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.09646400000000006,0.08973335045366222,0.1031946495463379,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-2.04497584344885,-2.210762684293658,-1.8791890026040414,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-16.880091861276554,-17.238032461877243,-16.522151260675866,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.10327566860743238,-0.10443210831806013,-0.10211922889680464,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-84.19945293449,-85.14932965783196,-83.24957621114804,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,Token Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.49756800000000007,0.48293942188817457,0.5121965781118256,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,-16.89419803236013,-17.406062171938622,-16.382333892781638,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-212.58743169026678,-214.7160487345852,-210.45881464594837,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.5273213868968256,-0.5434947158176427,-0.5111480579760085,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-84.19945293449,-85.14932965783196,-83.24957621114804,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,Token Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.5940000000000001,-0.6097820059876865,-0.5782179940123137,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.468348853523661,9.213467391131363,9.72323031591596,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,363.6465880540057,352.60066134034093,374.69251476767045,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.8359042588584844,0.8141199517472467,0.8576885659697221,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-84.19945293449,-85.14932965783196,-83.24957621114804,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06694846269089837,-0.06914789876305345,-0.06474902661874328,positive favors Adaptive WRR
+Changing traffic,Token Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-1.557296,-1.5580288401299147,-1.5565631598700853,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,38.89770683617046,38.79454864473221,39.000865027608704,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,17.271448597729467,16.89620838842633,17.646688807032604,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.12275986997065988,-0.12373399305605967,-0.12178574688526009,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,-21.963632710935748,-22.999696542900725,-20.92756887897077,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,Token Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.163104,0.1626227431657871,0.1635852568342129,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-6.744557462774324,-6.793283990903908,-6.69583093464474,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-26.108476618308845,-27.193464682855723,-25.02348855376197,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.11385249530222744,-0.12284221098924539,-0.10486277961520948,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,-21.963632710935748,-22.999696542900725,-20.92756887897077,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,Token Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,1.3941599999999998,1.393488040453849,1.3948319595461507,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-21.77247061596038,-21.90697948461964,-21.63796174730112,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-615.0929411442423,-618.6274963974323,-611.5583858910524,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.4048045527696977,-0.40866066931935885,-0.4009484362200365,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,-21.963632710935748,-22.999696542900725,-20.92756887897077,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.18651853908852525,0.18599863635545796,0.18703844182159254,positive favors Adaptive WRR
+Changing traffic,Token Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-1.159648,-1.163945534342868,-1.155350465657132,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,28.95891352413089,28.842392187990207,29.07543486027157,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,11.63881684240227,11.260815139592365,12.016818545212177,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.25129800397867647,0.24945604728471854,0.2531399606726344,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.94299992773729,-35.96124635373879,-33.92475350173579,negative favors Adaptive WRR
+Changing traffic,Token Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,Token Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.495984,0.48131323225110983,0.5106547677488901,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-16.89419803236013,-17.406062171938622,-16.382333892781638,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-208.76491133177865,-211.35986668758216,-206.16995597597514,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.32972584347385475,-0.3452499331799954,-0.3142017537677141,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.94299992773729,-35.96124635373879,-33.92475350173579,negative favors Adaptive WRR
+Changing traffic,Token Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,Token Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.6636,0.6531804838956686,0.6740195161043313,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-11.418899127606043,-11.618909096822398,-11.218889158389688,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-327.91929301557514,-333.07985633480445,-322.7587296963458,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.2118304546818301,-0.21554167189806084,-0.20811923746559935,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-34.94299992773729,-35.96124635373879,-33.92475350173579,negative favors Adaptive WRR
+Changing traffic,Token Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17080078048793806,0.17038663127286194,0.1712149297030142,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,-1.508832,-1.5125853303097336,-1.5050786696902663,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,37.69790946635644,37.571234337393065,37.82458459531982,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,16.22112939925778,15.833341959351566,16.608916839163996,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.013074697502805979,-0.015320733007343452,-0.010828661998268506,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,-33.19197643739151,-34.428745768446475,-31.955207106336545,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,0.19076672411466294,0.1901884207415423,0.1913450274877836,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.22291200000000005,0.21740048580034751,0.2284235141996526,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,-9.259323617527395,-9.48265413046994,-9.035993104584849,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,-16.945887828674465,-18.619365968312607,-15.272409689036321,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.7732809567204242,-0.7844621439987182,-0.7620997694421302,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,-33.19197643739151,-34.428745768446475,-31.955207106336545,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,0.19076672411466294,0.1901884207415423,0.1913450274877836,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,1.2855599999999998,1.2818565944643112,1.2892634055356884,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-20.158994474102517,-20.284519663918786,-20.033469284286248,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-396.2634226759095,-399.6362771844969,-392.8905681673221,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.8228719244803274,-0.8393078549423146,-0.8064359940183402,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,-33.19197643739151,-34.428745768446475,-31.955207106336545,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,0.19076672411466294,0.1901884207415423,0.1913450274877836,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.09634400000000005,0.08957337674416771,0.1031146232558324,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,-2.0385722340100827,-2.205169280107319,-1.8719751879128466,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-17.06575377836926,-17.42284769600932,-16.7086598607292,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.05409386923862748,-0.055677856294670265,-0.0525098821825847,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-84.85313246708074,-85.75505751072043,-83.95120742344105,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06593801215342386,-0.06800580282097708,-0.06387022148587064,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.48892800000000003,0.4754217016160148,0.5024342983839852,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,-16.484300088148167,-16.954388384868253,-16.01421179142808,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-214.75844459466458,-216.94274349382712,-212.57414569550204,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.2978438903424653,-0.30833852695757247,-0.2873492537273581,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-84.85313246708074,-85.75505751072043,-83.95120742344105,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06593801215342386,-0.06800580282097708,-0.06387022148587064,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.58542,-0.5999663824925802,-0.5708736175074199,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,9.283365241436222,9.044890158608514,9.52184032426393,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,281.1871849652609,268.7069939308478,293.667375999674,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,5.716058538683518,5.591288175793887,5.840828901573149,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-84.85313246708074,-85.75505751072043,-83.95120742344105,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,-0.06593801215342386,-0.06800580282097708,-0.06387022148587064,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,-1.54192,-1.5430285435850244,-1.5408114564149755,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,38.52477429026768,38.41870925404755,38.63083932648781,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,16.812319070492137,16.435033692009558,17.189604448974716,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.031556111565317416,-0.03324404763875407,-0.02986817549188076,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,-45.0552251040407,-46.19404540627572,-43.91640480180568,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.19091207044580538,0.19039889743849464,0.19142524345311612,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.23620800000000006,0.23537731141849216,0.23703868858150795,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,-9.85025184321009,-9.926657769967488,-9.773845916452693,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,-43.27403626180685,-45.82268640986224,-40.725386113751455,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.13037886746288846,-0.13706014368067995,-0.12369759124509697,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,-45.0552251040407,-46.19404540627572,-43.91640480180568,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.19091207044580538,0.19039889743849464,0.19142524345311612,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,1.3055400000000001,1.3049791286151937,1.3061008713848066,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-20.158994474102517,-20.284519663918786,-20.033469284286248,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-427.14675780165146,-427.89503518220613,-426.3984804210968,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.7963358783604103,-0.8104866191474964,-0.7821851375733242,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,-45.0552251040407,-46.19404540627572,-43.91640480180568,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.19091207044580538,0.19039889743849464,0.19142524345311612,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-1.1570399999999998,-1.1610366523012192,-1.1530433476987805,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,28.902401575391764,28.788062982572573,29.016740168210955,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,11.47367744636371,11.096591129904558,11.850763762822863,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.28316660381811515,0.28063099418315546,0.28570221345307484,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-39.58506883014588,-40.45476426988581,-38.71537339040595,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17106160994097047,0.17067631853308235,0.1714469013488586,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.4888800000000001,0.47534245024882843,0.5024175497511718,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-16.484300088148167,-16.954388384868253,-16.01421179142808,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-214.9523335449074,-217.13834676650418,-212.7663203233106,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.22869332159767933,-0.24080736441763326,-0.2165792787777254,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-39.58506883014588,-40.45476426988581,-38.71537339040595,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17106160994097047,0.17067631853308235,0.1714469013488586,positive favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.6678,0.6583119169316008,0.677288083068399,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,-11.49256716940064,-11.679136316844383,-11.305998021956897,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-161.13004450349982,-162.47682930472166,-159.78325970227797,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.28094798433250295,-0.3019920046855006,-0.2599039639795053,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-39.58506883014588,-40.45476426988581,-38.71537339040595,negative favors Adaptive WRR
+Changing traffic,Leaky Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.17106160994097047,0.17067631853308235,0.1714469013488586,positive favors Adaptive WRR
+Bursty traffic,None,voice,throughput_mbps,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_delay_ms,FIFO minus Adaptive WRR,20,137.31214919273853,134.22352492226753,140.40077346320953,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,13.454822932355219,12.850252557950506,14.059393306759931,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_queue_packets,FIFO minus Adaptive WRR,20,18.52491573203097,18.115166667459853,18.934664796602085,negative favors Adaptive WRR
+Bursty traffic,None,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.032348695997303126,-0.03329707407355125,-0.031400317921055,positive favors Adaptive WRR
+Bursty traffic,None,video,throughput_mbps,FIFO minus Adaptive WRR,20,-0.009216000000000002,-0.013378449853621362,-0.005053550146378641,negative favors Adaptive WRR
+Bursty traffic,None,video,packet_loss_percent,FIFO minus Adaptive WRR,20,0.758464018397486,0.420191217233447,1.096736819561525,negative favors Adaptive WRR
+Bursty traffic,None,video,average_delay_ms,FIFO minus Adaptive WRR,20,132.89301201367246,131.1008208279809,134.68520319936403,negative favors Adaptive WRR
+Bursty traffic,None,video,average_jitter_ms,FIFO minus Adaptive WRR,20,0.7710827849312711,0.7491800750019533,0.792985494860589,negative favors Adaptive WRR
+Bursty traffic,None,video,average_queue_packets,FIFO minus Adaptive WRR,20,18.52491573203097,18.115166667459853,18.934664796602085,negative favors Adaptive WRR
+Bursty traffic,None,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.032348695997303126,-0.03329707407355125,-0.031400317921055,positive favors Adaptive WRR
+Bursty traffic,None,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.43289999999999995,0.42234298207947857,0.44345701792052133,negative favors Adaptive WRR
+Bursty traffic,None,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-14.478500277707997,-14.84140343292092,-14.115597122495075,negative favors Adaptive WRR
+Bursty traffic,None,file,average_delay_ms,FIFO minus Adaptive WRR,20,-26.133709286830104,-26.868525481035373,-25.398893092624835,negative favors Adaptive WRR
+Bursty traffic,None,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.4778564265597005,-0.4983317482704967,-0.4573811048489043,negative favors Adaptive WRR
+Bursty traffic,None,file,average_queue_packets,FIFO minus Adaptive WRR,20,18.52491573203097,18.115166667459853,18.934664796602085,negative favors Adaptive WRR
+Bursty traffic,None,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.032348695997303126,-0.03329707407355125,-0.031400317921055,positive favors Adaptive WRR
+Bursty traffic,None,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.6596841924913254,-0.6840464011856626,-0.6353219837969881,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.3872421279416901,-0.4170021280577239,-0.3574821278256563,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_queue_packets,Priority minus Adaptive WRR,20,-0.41409544408200355,-0.4509925389681202,-0.3771983491958869,negative favors Adaptive WRR
+Bursty traffic,None,voice,jain_fairness_index,Priority minus Adaptive WRR,20,0.0006362692053059171,0.0004922556574117998,0.0007802827532000343,positive favors Adaptive WRR
+Bursty traffic,None,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,average_delay_ms,Priority minus Adaptive WRR,20,-3.2236528104223736,-3.4491723182479763,-2.998133302596771,negative favors Adaptive WRR
+Bursty traffic,None,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.6071069138424806,-0.6159727003466302,-0.598241127338331,negative favors Adaptive WRR
+Bursty traffic,None,video,average_queue_packets,Priority minus Adaptive WRR,20,-0.41409544408200355,-0.4509925389681202,-0.3771983491958869,negative favors Adaptive WRR
+Bursty traffic,None,video,jain_fairness_index,Priority minus Adaptive WRR,20,0.0006362692053059171,0.0004922556574117998,0.0007802827532000343,positive favors Adaptive WRR
+Bursty traffic,None,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.00893999999999997,-0.0109564961537489,-0.006923503846251041,negative favors Adaptive WRR
+Bursty traffic,None,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.29892939914190786,0.23146029775740268,0.36639850052641304,negative favors Adaptive WRR
+Bursty traffic,None,file,average_delay_ms,Priority minus Adaptive WRR,20,0.6915775422610893,0.6183055292150516,0.764849555307127,negative favors Adaptive WRR
+Bursty traffic,None,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.18087265294229135,0.1687650581194281,0.1929802477651546,negative favors Adaptive WRR
+Bursty traffic,None,file,average_queue_packets,Priority minus Adaptive WRR,20,-0.41409544408200355,-0.4509925389681202,-0.3771983491958869,negative favors Adaptive WRR
+Bursty traffic,None,file,jain_fairness_index,Priority minus Adaptive WRR,20,0.0006362692053059171,0.0004922556574117998,0.0007802827532000343,positive favors Adaptive WRR
+Bursty traffic,None,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.06664361036546505,0.021418945275005624,0.11186827545592448,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.10362578356924608,0.06843314977640919,0.13881841736208297,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,3.8716474919113266,3.4042359640372726,4.339059019785381,negative favors Adaptive WRR
+Bursty traffic,None,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007675323049929683,-0.008516409622915284,-0.006834236476944082,positive favors Adaptive WRR
+Bursty traffic,None,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,average_delay_ms,Round Robin minus Adaptive WRR,20,26.55908175994086,23.540276640290138,29.57788687959158,negative favors Adaptive WRR
+Bursty traffic,None,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.4958296787460874,0.4812487761500967,0.5104105813420781,negative favors Adaptive WRR
+Bursty traffic,None,video,average_queue_packets,Round Robin minus Adaptive WRR,20,3.8716474919113266,3.4042359640372726,4.339059019785381,negative favors Adaptive WRR
+Bursty traffic,None,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007675323049929683,-0.008516409622915284,-0.006834236476944082,positive favors Adaptive WRR
+Bursty traffic,None,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.10734000000000002,0.09382631562103458,0.12085368437896546,negative favors Adaptive WRR
+Bursty traffic,None,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-3.5901491410456403,-4.0478121059039225,-3.1324861761873586,negative favors Adaptive WRR
+Bursty traffic,None,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-4.772805017428172,-5.468181773520502,-4.077428261335841,negative favors Adaptive WRR
+Bursty traffic,None,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.2375575859735716,-0.25750712709201823,-0.217608044855125,negative favors Adaptive WRR
+Bursty traffic,None,file,average_queue_packets,Round Robin minus Adaptive WRR,20,3.8716474919113266,3.4042359640372726,4.339059019785381,negative favors Adaptive WRR
+Bursty traffic,None,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.007675323049929683,-0.008516409622915284,-0.006834236476944082,positive favors Adaptive WRR
+Bursty traffic,None,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.10068957094289566,0.06338218977597582,0.1379969521098155,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.2308059734015563,0.19037243954188734,0.27123950726122525,negative favors Adaptive WRR
+Bursty traffic,None,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.11568821458645093,-0.1279829582641211,-0.10339347090878075,negative favors Adaptive WRR
+Bursty traffic,None,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0001507156005586152,0.00010099212834677662,0.0002004390727704538,positive favors Adaptive WRR
+Bursty traffic,None,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,None,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-1.0289831941427576,-1.100312481412263,-0.9576539068732524,negative favors Adaptive WRR
+Bursty traffic,None,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.13999203704381064,-0.1513503030846386,-0.12863377100298268,negative favors Adaptive WRR
+Bursty traffic,None,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.11568821458645093,-0.1279829582641211,-0.10339347090878075,negative favors Adaptive WRR
+Bursty traffic,None,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0001507156005586152,0.00010099212834677662,0.0002004390727704538,positive favors Adaptive WRR
+Bursty traffic,None,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-0.0020999999999999686,-0.0028027521146403766,-0.0013972478853595605,negative favors Adaptive WRR
+Bursty traffic,None,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.07028647899400475,0.0468945424881141,0.0936784154998954,negative favors Adaptive WRR
+Bursty traffic,None,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.23752742516501685,0.21798034962070803,0.2570745007093257,negative favors Adaptive WRR
+Bursty traffic,None,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.0013967812462322149,-0.005716367827563706,0.008509930320028135,negative favors Adaptive WRR
+Bursty traffic,None,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.11568821458645093,-0.1279829582641211,-0.10339347090878075,negative favors Adaptive WRR
+Bursty traffic,None,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0001507156005586152,0.00010099212834677662,0.0002004390727704538,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,134.45096947718187,130.99163197089814,137.9103069834656,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,13.45007892451515,12.770333066245158,14.129824782785143,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,4.378561340145732,4.205584429599884,4.551538250691581,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.0026574624736106613,-0.0036505782753168013,-0.0016643466719045215,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,-0.017903999999999986,-0.024625611037855096,-0.011182388962144876,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,1.4767304652559399,0.9304356809553389,2.023025249556541,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,129.87968091523717,127.51315817282435,132.24620365765,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,0.961873777988472,0.9412260769765534,0.9825214790003906,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,4.378561340145732,4.205584429599884,4.551538250691581,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.0026574624736106613,-0.0036505782753168013,-0.0016643466719045215,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.002939999999999987,0.00012029441275941601,0.005759705587240558,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,-0.09925065684029283,-0.1951984121083334,-0.0033029015722522426,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-53.531391106379225,-54.99885278657976,-52.06392942617869,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.14153711951539005,-0.15185730528836394,-0.13121693374241616,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,4.378561340145732,4.205584429599884,4.551538250691581,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,-0.0026574624736106613,-0.0036505782753168013,-0.0016643466719045215,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.6596841924913254,-0.6840464011856626,-0.6353219837969881,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.3872421279416901,-0.4170021280577239,-0.3574821278256563,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-0.15929894817898624,-0.2111849083933156,-0.10741298796465687,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,0.00011408995655854404,3.587489147449606e-05,0.00019230502164259202,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-3.2236528104223736,-3.4491723182479763,-2.998133302596771,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.6071069138424806,-0.6159727003466302,-0.598241127338331,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-0.15929894817898624,-0.2111849083933156,-0.10741298796465687,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,0.00011408995655854404,3.587489147449606e-05,0.00019230502164259202,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,-0.0019800000000000486,-0.0033346841500279966,-0.0006253158499721005,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.06617490108942552,0.020810305330540367,0.11153949684831066,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,1.1357415892666396,1.0434217915233324,1.2280613870099468,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,0.05151363272118743,0.04599743723400884,0.057029828208366024,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-0.15929894817898624,-0.2111849083933156,-0.10741298796465687,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,0.00011408995655854404,3.587489147449606e-05,0.00019230502164259202,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.06664361036546505,0.021418945275005624,0.11186827545592448,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.10362578356924608,0.06843314977640919,0.13881841736208297,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,0.7546624222690879,0.602789900609815,0.9065349439283608,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017103469492672497,-0.00033649994832667585,-5.569441526774127e-06,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,26.55908175994086,23.540276640290138,29.57788687959158,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.4958296787460874,0.4812487761500967,0.5104105813420781,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,0.7546624222690879,0.602789900609815,0.9065349439283608,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017103469492672497,-0.00033649994832667585,-5.569441526774127e-06,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.002939999999999987,0.00012029441275941601,0.005759705587240558,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,-0.09925065684029283,-0.1951984121083334,-0.0033029015722522426,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-10.460924036678758,-11.671758249193598,-9.250089824163918,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.049575414815074346,-0.05297114907336839,-0.0461796805567803,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,0.7546624222690879,0.602789900609815,0.9065349439283608,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,-0.00017103469492672497,-0.00033649994832667585,-5.569441526774127e-06,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.10068957094289566,0.06338218977597582,0.1379969521098155,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.2308059734015563,0.19037243954188734,0.27123950726122525,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0313836000000137,-0.03989475658043436,-0.022872443419593044,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,6.943558546784745e-06,-3.0614948865202414e-06,1.694861198008973e-05,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-1.0289831941427576,-1.100312481412263,-0.9576539068732524,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.13999203704381064,-0.1513503030846386,-0.12863377100298268,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0313836000000137,-0.03989475658043436,-0.022872443419593044,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,6.943558546784745e-06,-3.0614948865202414e-06,1.694861198008973e-05,positive favors Adaptive WRR
+Bursty traffic,Token Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,-0.00011999999999998679,-0.00029286016715675863,5.286016715678503e-05,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0040322705161062525,-0.0017775312529496115,0.009842072285162116,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.39872782098013604,0.3722435089440351,0.425212133016237,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.002748931731857396,-0.0010016321521498094,0.006499495615864602,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0313836000000137,-0.03989475658043436,-0.022872443419593044,negative favors Adaptive WRR
+Bursty traffic,Token Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,6.943558546784745e-06,-3.0614948865202414e-06,1.694861198008973e-05,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,throughput_mbps,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_delay_ms,FIFO minus Adaptive WRR,20,13.03352267329005,11.499420420524936,14.567624926055165,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_jitter_ms,FIFO minus Adaptive WRR,20,3.749032596190432,3.5427224059071074,3.9553427864737563,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_queue_packets,FIFO minus Adaptive WRR,20,0.169916400000042,0.1490093477895256,0.19082345221055838,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,jain_fairness_index,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,throughput_mbps,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_delay_ms,FIFO minus Adaptive WRR,20,1.0229972796494942,0.8421793167924332,1.2038152425065551,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.005940878916030834,-0.014798613313444516,0.002916855481382847,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_queue_packets,FIFO minus Adaptive WRR,20,0.169916400000042,0.1490093477895256,0.19082345221055838,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,jain_fairness_index,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,throughput_mbps,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,packet_loss_percent,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_delay_ms,FIFO minus Adaptive WRR,20,-0.8619811736396784,-1.0068002240115341,-0.7171621232678227,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_jitter_ms,FIFO minus Adaptive WRR,20,-0.025530377383491253,-0.03116485647494603,-0.019895898292036474,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_queue_packets,FIFO minus Adaptive WRR,20,0.169916400000042,0.1490093477895256,0.19082345221055838,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,jain_fairness_index,FIFO minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_delay_ms,Priority minus Adaptive WRR,20,-0.24781720038861654,-0.27953679664425646,-0.21609760413297666,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_jitter_ms,Priority minus Adaptive WRR,20,-0.1846591871511056,-0.21420325275861657,-0.15511512154359464,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_queue_packets,Priority minus Adaptive WRR,20,-0.010189200000007266,-0.011511672138478668,-0.008866727861535863,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,jain_fairness_index,Priority minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_delay_ms,Priority minus Adaptive WRR,20,-0.29638603364782046,-0.33475237970959903,-0.2580196875860419,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_jitter_ms,Priority minus Adaptive WRR,20,-0.01282561377228445,-0.017469616049549344,-0.008181611495019555,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_queue_packets,Priority minus Adaptive WRR,20,-0.010189200000007266,-0.011511672138478668,-0.008866727861535863,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,jain_fairness_index,Priority minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,throughput_mbps,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,packet_loss_percent,Priority minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_delay_ms,Priority minus Adaptive WRR,20,0.20801068688391383,0.1794380043742955,0.23658336939353217,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_jitter_ms,Priority minus Adaptive WRR,20,-0.008335458274519902,-0.013030494013974787,-0.0036404225350650165,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_queue_packets,Priority minus Adaptive WRR,20,-0.010189200000007266,-0.011511672138478668,-0.008866727861535863,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,jain_fairness_index,Priority minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_delay_ms,Round Robin minus Adaptive WRR,20,0.31460863838480874,0.2801164719584236,0.3491008048111939,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.25859347505382685,0.22362828159501263,0.29355866851264106,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_queue_packets,Round Robin minus Adaptive WRR,20,0.03423120000003612,0.029147807883852097,0.03931459211622014,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_delay_ms,Round Robin minus Adaptive WRR,20,1.2243464990183444,1.024243542745986,1.4244494552907028,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_jitter_ms,Round Robin minus Adaptive WRR,20,0.009465869460486387,-3.481208837634829e-05,0.018966551009349124,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_queue_packets,Round Robin minus Adaptive WRR,20,0.03423120000003612,0.029147807883852097,0.03931459211622014,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,throughput_mbps,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,packet_loss_percent,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_delay_ms,Round Robin minus Adaptive WRR,20,-0.8518212146872145,-0.9967627297160094,-0.7068796996584196,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_jitter_ms,Round Robin minus Adaptive WRR,20,-0.024166043820421666,-0.02954951647922028,-0.018782571161623053,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_queue_packets,Round Robin minus Adaptive WRR,20,0.03423120000003612,0.029147807883852097,0.03931459211622014,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,jain_fairness_index,Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.3399063125977476,0.3048180635179826,0.37499456167751266,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,0.2576327724997838,0.22220253847148266,0.29306300652808487,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0035452000000063292,-0.0048587560158634,-0.0022316439841492583,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,voice,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,-0.29137794370066467,-0.32950430963025557,-0.25325157777107377,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.010796168371547964,-0.015661254926098586,-0.0059310818169973425,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0035452000000063292,-0.0048587560158634,-0.0022316439841492583,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,video,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,throughput_mbps,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,packet_loss_percent,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_delay_ms,Weighted Round Robin minus Adaptive WRR,20,0.19763459565318015,0.16926635596996525,0.22600283533639504,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_jitter_ms,Weighted Round Robin minus Adaptive WRR,20,-0.008720437751034548,-0.013581032188715508,-0.003859843313353587,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,average_queue_packets,Weighted Round Robin minus Adaptive WRR,20,-0.0035452000000063292,-0.0048587560158634,-0.0022316439841492583,negative favors Adaptive WRR
+Bursty traffic,Leaky Bucket,file,jain_fairness_index,Weighted Round Robin minus Adaptive WRR,20,0.0,0.0,0.0,positive favors Adaptive WRR
